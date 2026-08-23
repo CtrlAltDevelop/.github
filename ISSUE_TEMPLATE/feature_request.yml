@@ -1,0 +1,70 @@
+name: Feature request
+description: Suggest a capability or an API change
+title: "[feat]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every public symbol is a compatibility promise, so new API gets added
+        slowly and deliberately. Describing the **problem** you hit gets you
+        further than describing the solution you had in mind — there may be a
+        cheaper way to solve it.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before filing
+      options:
+        - label: I searched the existing issues for the same idea
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: >-
+        What are you trying to do, and what stops you today? Concrete beats
+        abstract — a real situation from your app is perfect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you'd like
+      description: >-
+        The behaviour or API you have in mind. Sketch the call site if you can
+        — how you'd want to use it, not how it would be implemented.
+      render: dart
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried instead
+      description: >-
+        Workarounds, other packages, or your own wrapper — and why they fall
+        short.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: breaking
+    attributes:
+      label: Would this break existing code?
+      options:
+        - "No — purely additive"
+        - "Yes — existing callers would need changes"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd be willing to open a pull request for this
+          required: false

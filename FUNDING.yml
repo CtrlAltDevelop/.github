@@ -1,0 +1,8 @@
+# Renders the "Sponsor" button on every public repository that has no
+# FUNDING.yml of its own.
+#
+# The `github:` entry only appears once GitHub Sponsors is enabled on the
+# account — until then it is silently ignored. Uncomment it after joining.
+# github: [CtrlAltDevelop]
+
+custom: ["https://ctrlaltdevelop.github.io"]
