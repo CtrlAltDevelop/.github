@@ -1,0 +1,33 @@
+title: "[idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Early-stage thinking lives here. Once an idea has a concrete shape,
+        it graduates to a feature request issue.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: What problem would it solve?
+      description: A real situation from your own app is worth more than a general argument.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Where would it live?
+      options:
+        - "In an existing package"
+        - "A new package"
+        - "Not sure"
+    validations:
+      required: false

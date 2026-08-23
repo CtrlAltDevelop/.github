@@ -11,7 +11,7 @@ rather than closed.
 | A missing feature | Open an issue with the **Feature request** template |
 | "How do I…" with this package | Open an issue and label it a question — if the answer isn't in the README, that's a docs bug on my side |
 | A general Dart / Flutter / BLoC question | [Stack Overflow](https://stackoverflow.com/questions/tagged/flutter) or the [Flutter community](https://flutter.dev/community) — I'm not the best channel for these |
-| A security vulnerability | **Not an issue.** See [SECURITY.md](SECURITY.md) |
+| A security vulnerability | **Not an issue.** See [SECURITY.md](https://github.com/CtrlAltDevelop/.github/blob/main/SECURITY.md) |
 | Freelance, contract, or consulting work | Email **me.CtrlAltDev@proton.me** |
 
 ## Before you open an issue

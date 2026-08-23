@@ -1,0 +1,32 @@
+title: "[question]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If something behaves differently than the README says, that's a bug —
+        open an issue instead. Questions are for "how do I…" and "is this the
+        right approach".
+
+  - type: input
+    id: package
+    attributes:
+      label: Package and version
+      placeholder: "verdict 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: The outcome you want, not just the API you're stuck on.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempt
+    attributes:
+      label: What you've tried
+      render: dart
+    validations:
+      required: false
